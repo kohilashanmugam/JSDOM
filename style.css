@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+html,body{
+    background-color: aliceblue;
+}
+header{
+    padding: 10px ;
+    text-align: center;
+    background-color: blue;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+main{
+    margin: 20px auto;
+    width: 800px;
+    background-color: white !important;
+    padding: 30px;
+    text-align: center;
+}
+
+.input-button{
+    padding: 1px 2px;
+    background-color: rgb(26, 26, 248);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    border-color:gray;
+    font-size:small;
+    width: 60px;
+}
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(231 231 231);
+}
+.input-food{
+    padding: 10px 10px;
+    outline: none;
+    margin-right: 10px;
+    width: 100%;
+    border: 1px solid ghostwhite;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+.alert {
+    padding: 10px 10px 10px 10px;
+    background-color: green;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
+    border-left: 5px solid green;
+    text-align: left;
+    display: flex;
+    font-weight: 800;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+.alert button{
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.food-container{
+    margin: 20px 0;
+    background-color: #fff;
+    list-style: none;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 5px 5px 10px rgb(231 231 231);
+    border-radius: 5px;
+
+}
+.food-container .food-item{
+    padding: 5px 10px;
+    font-size: 12px;
+    border: 1px solid rgb(231,231,231);
+    margin: 10px 0;
+    color: gray;
+    text-transform: capitalize;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.food-container .food-item:hover{
+    background-color: rgb(79,123,255);
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
